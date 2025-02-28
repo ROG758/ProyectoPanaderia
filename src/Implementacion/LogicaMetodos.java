@@ -120,8 +120,7 @@ public class LogicaMetodos implements Metodos, Metodos2 {
 		for (int i = 0; i < listar.size(); i++) {
 			if (nombre.equals(listar.get(i).getNombre())) {
 				System.out.println("Ingresa le nuevo sabor");
-				
-				listar.set(i, pan);
+			
 				
 				break;
 

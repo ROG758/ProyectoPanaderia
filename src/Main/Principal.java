@@ -20,6 +20,10 @@ public class Principal {
 		int existencia, munuPrinc, indice;
 		String sabor;
 		LocalDate fechaLabo;
+		
+		System.out.println("se agrega estas lineas de codigo");
+		float operacion = 3.1416f*5;
+		System.out.println(operacion);
 
 		Panes pan = null;
 
@@ -187,7 +191,7 @@ public class Principal {
 					sabor = lectura.nextLine();
 					
 					
-					imp.editarBuscandoNombre(nombre, pan);
+					//imp.editarBuscandoNombre(nombre, pan);
 					
 				} catch (Exception e) {
 					// TODO: handle exception
