@@ -21,9 +21,9 @@ public class Principal {
 		String sabor;
 		LocalDate fechaLabo;
 		
-		System.out.println("se agrega estas lineas de codigo");
+		/*System.out.println("se agrega estas lineas de codigo");
 		float operacion = 3.1416f*5;
-		System.out.println(operacion);
+		System.out.println(operacion);*/
 
 		Panes pan = null;
 
